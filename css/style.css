@@ -11,12 +11,19 @@ body {
     padding: 2rem
 }
 
+/* image */
+body header img {
+    border-radius: 1.4rem 1.4rem 0 0;
+}
 /* MAIN */
 main {
-    overflow: hidden;
     background: #fff;
-    border-radius: 0 0  0.4rem 0.4rem;
+    border-radius: 0 0  1.4rem 1.4rem;
     padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 main section {
@@ -25,10 +32,9 @@ main section {
     gap: 1rem;
 }
 
-/* MAIN imagem */
 
 
-
+/* MAIN TEXT */
 body main .main-text {
     display: flex;
     flex-direction: column;
@@ -56,4 +62,25 @@ body main p:last-child {
     max-width: 30rem;
     font-size: 1.4rem;  
     line-height: 2.5rem;
+}
+
+/* main price */
+
+body main .price h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    
+    font-family: 'Fraunces', sans-serif;
+    font-size: 3rem;
+    
+    color: var(--Dark-cyan);
+}
+
+body main .price h2 span {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
 }
