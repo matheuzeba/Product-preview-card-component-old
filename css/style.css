@@ -7,7 +7,13 @@
 
 /* body */
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background: rgb(131, 131, 131);
+    
+    height: 100vh;
     padding: 2rem
 }
 
@@ -19,11 +25,11 @@ body header img {
 main {
     background: #fff;
     border-radius: 0 0  1.4rem 1.4rem;
-    padding: 1rem;
+    padding: 1.5rem;
 
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 main section {
@@ -31,8 +37,6 @@ main section {
     flex-direction: column;
     gap: 1rem;
 }
-
-
 
 /* MAIN TEXT */
 body main .main-text {
@@ -84,3 +88,26 @@ body main .price h2 span {
     text-decoration: line-through;
     color: var(--Dark-grayish-blue);
 }
+
+/* button */
+
+body main .cart button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: var(--White);
+    background: var(--Dark-cyan);
+
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+body main .cart button span img {
+    width: 2rem;
+    margin-right: 2rem;
+
+}
+
