@@ -11,21 +11,22 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(131, 131, 131);
+    background: var(--Cream);
     
-    height: 100vh;
     padding: 2rem
 }
 
 /* image */
-body header img {
-    border-radius: 1.4rem 1.4rem 0 0;
-}
+
+
+
+
 /* MAIN */
 main {
+    overflow: hidden;
     background: #fff;
-    border-radius: 0 0  1.4rem 1.4rem;
-    padding: 1.5rem;
+    border-radius: 1.4rem ;
+    
 
     display: flex;
     flex-direction: column;
@@ -36,33 +37,34 @@ main section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding: 0 1.5rem;
 }
 
 /* MAIN TEXT */
-body main .main-text {
+body main .section-main .main-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-body main p {
+body main .section-main .main-text p {
     font-family: 'Montserrat', sans-serif;
     color: var(--Dark-grayish-blue); 
 }
 
-body main .main-text p:first-child {
+body main .section-main .main-text p:first-child {
     margin-top: 1rem;
     font-size: 1rem;
     letter-spacing: 0.5rem; 
 }
 
-body main h1 {
+body main .section-main .main-text h1 {
     font-size: 3.5rem;
     color: var(--Very-dark-blue);
     font-family: 'Fraunces', sans-serif;
     max-width: 35rem;
 }
 
-body main p:last-child {
+body main .section-main .main-text p :last-child {
     max-width: 30rem;
     font-size: 1.4rem;  
     line-height: 2.5rem;
@@ -70,7 +72,7 @@ body main p:last-child {
 
 /* main price */
 
-body main .price h2 {
+body main .section-main .pay .price h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -82,7 +84,7 @@ body main .price h2 {
     color: var(--Dark-cyan);
 }
 
-body main .price h2 span {
+body main .section-main .pay .price h2 span {
     font-family: 'Fraunces', sans-serif;
     font-size: 1.5rem;
     text-decoration: line-through;
@@ -91,7 +93,11 @@ body main .price h2 span {
 
 /* button */
 
-body main .cart button {
+body main .section-main .pay .cart {
+    padding-bottom: 1.5rem;
+}
+
+body main .section-main .pay .cart button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     display: flex;
@@ -105,9 +111,14 @@ body main .cart button {
     border-radius: 1rem;
 }
 
-body main .cart button span img {
+body main .section-main .pay .cart button span img {
     width: 2rem;
     margin-right: 2rem;
 
 }
 
+/* Detalhes */
+body main .section-main .pay .cart button:hover {  
+    background:  hsl(157, 36%, 12%);
+    cursor: pointer;
+}
