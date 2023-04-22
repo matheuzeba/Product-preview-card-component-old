@@ -1,4 +1,9 @@
 
+ATENÇÃO ESTA SOLUÇÃO É ANTIGA E FOI CRIADA QUANDO EU ESTAVA APRENDENDO
+PARA VER UMA SOLUÇÃO MAIS NOVA ENTRE AQUI:
+
+[-CLIQUE AQUI PARA ACESSAR A NOVA SOLUÇÃO-](https://github.com/matheuzeba/Product-preview-card-component)
+
 # 👉 Product-preview-card-component
 
 Componente responsivo de prévia de compra
