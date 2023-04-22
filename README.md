@@ -10,7 +10,7 @@ Componente responsivo de prévia de compra
 
 ## 🌐 Link para acessar site 🌐
 
-[-CLIQUE AQUI PARA ACESSAR O SITE-](https://matheuzeba.github.io/Product-preview-card-component/)
+[-CLIQUE AQUI PARA ACESSAR O SITE-](https://matheuzeba.github.io/Product-preview-card-component-old/)
 
 ## (☞ ͡° ͜ʖ ͡°)☞ Explicação
 
